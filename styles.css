@@ -1,0 +1,85 @@
+/* Typography */
+
+body {
+  font-size: 16px;
+  font-family: 'Blinker', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  background: #111d4a;
+  color: #fff;
+  margin: 0;
+}
+
+.card-img {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card-content {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.card-title {
+  font-size: 28px;
+  color: #05cbe9;
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-time {
+  display: flex;
+  flex-direction: column;
+  max-width: 5%;
+}
+
+.card-button {
+  font-weight: bold;
+  font-size: 20px;
+  background: #05cbe9;
+  color: #111d4a;
+  border: none;
+  padding: 0.5em 1em;
+  transition: font-size 250ms;
+  align-self: center;
+}
+
+.card-button:hover,
+.card-button:focus {
+  background: #fff;
+  font-size: 40px;
+}
+
+@media (min-width: 500px){
+  .card {
+    display: flex;
+    font-size: 18px;
+
+  }
+
+  .card-content {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-info {
+    margin-top: auto;
+  }
+
+  .card-img {
+    height: 100vh;
+    width: 30%;
+  }
+
+  .card-title {
+    font-size: 36px;
+  }
+
+  
+
+}
